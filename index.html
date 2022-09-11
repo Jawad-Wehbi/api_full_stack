@@ -4,15 +4,8 @@
         
 		
 
-		<!-- provided files; do not modify -->
-
 		<link href="css/styles.css" type="text/css" rel="stylesheet" />
 
-		
-
-		<!-- your code -->
-
-		<script src="website.js" type="text/javascript"></script>
     </head>
 
     <body>
@@ -25,18 +18,22 @@
                 <div class="nameInput">
                     <input type="text" id="Name" name="Name" placeholder="Name">
                 </div>
-                    <button class="submit">Submit</button>
-                <div class="output">
 
+                    <button class="submit" onclick="predictName()">Submit</button>
+                <div class="output" id="output">
+                    <div id="age"></div>
+                    <div id="gender"></div>
                 </div>
             </section>
             <section id="righttSection">
                 <div class="dog_picture">
-                    <img src="pic_trulli.jpg" alt="">
+                    <img id="img">
                 </div>
             </section>
 
         </div>
+        
+		<script src="js/website.js" type="text/javascript"></script>
     </body>
 
     </html>
