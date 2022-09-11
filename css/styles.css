@@ -1,5 +1,50 @@
-#main{
-max-height: fit-content;
-width: 100%;
-background-color: aqua;
+
+.main {
+    width: 1440px;
+    height: 1024px;
+    background-color:#877C72 ;
+    align-content: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#leftSection {
+    position: absolute;
+    width: 516px;
+    height: 834px;
+    left: 45px;
+    top: 88px;
+}
+#text {
+
+}
+
+#Name{
+    position: absolute;
+    width: 450px;
+    height: 50px;
+    top: 100px;
+    background-color: #D9D9D9;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+.submit{
+    position: absolute;
+    width: 226px;
+    height: 81px;
+    left: 111px;
+    top: 218px;
+    border: 0%;
+    background: #B67338;
+    border-radius: 45.5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+.output{
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    left: 0px;
+    top: 384px;
+    background: #D9D9D9;
+    border-radius: 10px;
 }
